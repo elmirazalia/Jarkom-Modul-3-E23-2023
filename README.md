@@ -323,11 +323,11 @@ nano /etc/nginx/sites-enabled/default
 •	Uncomment beberapa bagian;
 location ~ \.php$ {
     include snippets/fastcgi-php.conf;
-#
-#   # With php-fpm (or other unix sockets):
+
+ #With php-fpm (or other unix sockets):
     fastcgi_pass unix:/var/run/php/php7.2-fpm.sock;
-#   # With php-cgi (or other tcp sockets):
-#   fastcgi_pass 127.0.0.1:9000;
+   #With php-cgi (or other tcp sockets):
+#fastcgi_pass 127.0.0.1:9000;
 }
 •	service nginx restart
 •	service php7.3-fpm start
