@@ -1,5 +1,4 @@
 # Jarkom-Modul-3-E23-2023
-# Jarkom-Modul-3-E23-2023
 
 Laporan Resmi Praktikum Jaringan Komputer Modul 3
 ***
